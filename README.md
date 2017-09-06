@@ -1,4 +1,4 @@
-# AlphaVantage C# API WRAPPER
+# AlphaVantage C# API Wrapper
 
 The repository includes a simple API wrapper for retrieving the technical stock data from the Alpha Vantage API (www.alphavantage.co).
 
