@@ -27,7 +27,7 @@ var parameters = new List<ApiParam>
 };
 ```
 
-You can them modify the parameters and get different variations of the same function, or call a different one alltogether.
+You can then modify the parameters and get different variations of the same function, or call a different one alltogether.
 
 ```C# 
 var SMA_5 = await GetTechnical(parameters, API_KEY);
