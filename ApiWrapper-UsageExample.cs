@@ -52,7 +52,7 @@ namespace AlphaVantageApiWrapper
                 //Change function to RSI
                 parameters.FirstOrDefault(x => x.ParamName == "function").ParamValue = AvFuncationEnum.Rsi.ToDescription();
 
-                parameters.FirstOrDefault(x => x.ParamName == "time_perio ").ParamValue = "7";
+                parameters.FirstOrDefault(x => x.ParamName == "time_period").ParamValue = "7";
                 var RSI_7 = await GetTechnical(parameters, API_KEY);
                 parameters.FirstOrDefault(x => x.ParamName == "time_period").ParamValue = "14";
                 var RSI_14 = await GetTechnical(parameters, API_KEY);
